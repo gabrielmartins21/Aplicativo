@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  transition: background 1s ease-in-out;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.container {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 20px;
+  border-radius: 16px;
+}
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+#icone {
+  width: 100px;
+  margin: 20px 0;
+}
+p {
+  font-size: 1.2rem;
+  font-style: italic;
+}
